@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.options": {
+    "extensions": [".js", ".ts"]
+  },
+  "files.associations": {
+    "*.ejs":"html"
+  },
+  "files.trimTrailingWhitespace":true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  }
+}
