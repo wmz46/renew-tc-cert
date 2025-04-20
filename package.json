@@ -1,11 +1,12 @@
 {
   "name": "@wmz46/renew-tc-cert",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "commonjs",
   "main": "./dist/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
+    "release":"tsc && yarn publish  --registry=https://g-ocps8537-npm.pkg.coding.net/wmz46/pub-repo/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
