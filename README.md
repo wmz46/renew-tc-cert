@@ -1,7 +1,7 @@
 # 一、安装
 ```shell
 # 安装
-npm install wmz46/renew-tc-cert
+npm install @wmz46/renew-tc-cert -g  --registry=https://g-ocps8537-npm.pkg.coding.net/wmz46/pub-repo/
 ```
 # 二、使用
 ```shell

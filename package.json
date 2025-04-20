@@ -1,5 +1,5 @@
 {
-  "name": "renew-tc-cert",
+  "name": "@wmz46/renew-tc-cert",
   "version": "1.0.0",
   "type": "commonjs",
   "main": "./dist/index.js",
@@ -8,6 +8,9 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist"
+  ],
   "bin": {
     "renew-tc-cert": "./dist/index.js"
   },
