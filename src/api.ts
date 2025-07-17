@@ -200,8 +200,9 @@ export class Api {
     }
   }
   private reloadNginx = () => {
-    const nginxPath = join(this.config.NGINX_BIN_PATH, 'nginx')
-    exec(`"${nginxPath}" -s reload`)
+    if(this.config.NGINX_RELOAD_CMD){
+      exec(this.config.NGINX_RELOAD_CMD)
+    }
   }
   private replaceCert = () => {
     const domain = this.config.DOMAIN
