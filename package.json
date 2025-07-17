@@ -1,6 +1,6 @@
 {
   "name": "@wmz46/renew-tc-cert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "commonjs",
   "main": "./dist/index.js",
   "scripts": {

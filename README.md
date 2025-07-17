@@ -1,7 +1,7 @@
 # 一、安装
 ```shell
 # 安装
-npm install @wmz46/renew-tc-cert -g  --registry=https://g-ocps8537-npm.pkg.coding.net/wmz46/pub-repo/
+npm install @wmz46/renew-tc-cert -g  --registry=https://npm.cnb.cool/iceolive/wmz46/pub-npm/-/packages/
 ```
 # 二、使用
 ```shell
