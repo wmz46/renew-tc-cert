@@ -18,8 +18,10 @@ TENCENTCLOUD_SECRET_ID:
 TENCENTCLOUD_SECRET_KEY:
 # 证书存放路径
 CERT_PATH:
-# nginx所在路径
+# nginx所在路径（废弃）
 NGINX_BIN_PATH:
+# nginx重启命令
+NGINX_RELOAD_CMD: nginx -s reload
 ```
 # 三、运行
 **由于新申请证书需要审核，请使用定时任务定时运行，具体请查看四、程序处理逻辑**
